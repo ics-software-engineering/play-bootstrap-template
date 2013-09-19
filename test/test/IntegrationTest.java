@@ -18,14 +18,17 @@ public class IntegrationTest {
   private static final int PORT = 3333;
 
   /**
-   * Check to see if the home page is displayed.
+   * Check to see that the two pages can be displayed.
    */
   @Test
   public void test() {
     running(testServer(PORT, fakeApplication(inMemoryDatabase())), HTMLUNIT, new Callback<TestBrowser>() {
       public void invoke(TestBrowser browser) {
         browser.goTo("http://localhost:3333");
-        assertThat(browser.pageSource()).contains("Your new application is ready.");
+        assertThat(browser.pageSource()).contains("home page");
+
+        browser.goTo("http://localhost:3333/page1");
+        assertThat(browser.pageSource()).contains("Page1");
       }
     });
   }
