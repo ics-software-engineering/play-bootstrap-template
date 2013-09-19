@@ -10,7 +10,10 @@ This is a sample Play application with the following features:
     the [routes](https://github.com/ics-software-engineering/play-bootstrap-template/blob/master/conf/routes), and
     the [view files](https://github.com/ics-software-engineering/play-bootstrap-template/tree/master/app/views).
         
-  * Note that the [navbar](https://github.com/ics-software-engineering/play-bootstrap-template/blob/master/app/views/main.scala.html) highlights the current active page. 
+  * Note that the [navbar](https://github.com/ics-software-engineering/play-bootstrap-template/blob/master/app/views/main.scala.html) highlights the current active page.
+  
+  * Note that the [main.css](https://github.com/ics-software-engineering/play-bootstrap-template/blob/master/public/stylesheets/main.css) has a 
+    slight adjustment to the body padding due to the use of the fixed-top navbar.  
     
   * Modifications to create very simple [tests](https://github.com/ics-software-engineering/play-bootstrap-template/tree/master/test/test).
   
