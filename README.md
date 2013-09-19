@@ -8,5 +8,15 @@ This is a sample Play application with the following features:
   * Modifications to illustrates simple page navigation through changes to the controllers and
     views files.
     
-  * Simple example tests. 
+  * Note that the navbar highlights the current active page. 
     
+  * Modifications to create very simple tests.
+  
+Here is the home page:
+
+![screenshot](https://raw.github.com/ics-software-engineering/play-bootstrap-template/master/doc/play-bootstrap-template-home.png)
+
+And here is Page 1:
+
+![screenshot](https://raw.github.com/ics-software-engineering/play-bootstrap-template/master/doc/play-bootstrap-template-page1.png)
+
