@@ -26,5 +26,4 @@ public class Application extends Controller {
     return ok(page1.render("Welcome to Page1."));
     
   }
-
 }
