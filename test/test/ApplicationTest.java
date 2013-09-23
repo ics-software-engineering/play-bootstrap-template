@@ -28,7 +28,7 @@ public class ApplicationTest {
    */
   @Test
   public void renderTemplate() {
-    Content html = views.html.index.render("Welcome to the home page.");
+    Content html = views.html.Index.render("Welcome to the home page.");
     assertThat(contentType(html)).isEqualTo("text/html");
     assertThat(contentAsString(html)).contains("home page");
   }
